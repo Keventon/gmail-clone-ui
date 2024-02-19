@@ -14,7 +14,7 @@ type FloatButtonProps = TouchableOpacityProps & {
 export function FloatButton({ icon, ...rest }: FloatButtonProps) {
   return (
     <Pressable
-      className="px-8 py-4 bg-gray-600 rounded-full absolute bottom-4 right-5 flex-row gap-1 items-center"
+      className="px-4 py-3 bg-gray-600 rounded-full absolute bottom-4 right-5 flex-row gap-1 items-center"
       activeOpacity={0.7}
       {...rest}
     >
